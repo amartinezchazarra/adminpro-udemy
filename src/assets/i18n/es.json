@@ -1,0 +1,31 @@
+{
+  "login" : {
+    "Username": "Usuario",
+    "Password": "Contraseña",
+    "Remember_me": "Recuérdame",
+    "Forgot_pwd": "¿Olvidó contraseña?",
+    "Log_In": "Iniciar sesión",
+    "Dont_have_an_account": "¿No tienes una cuenta?",
+    "Sign_Up": "Regístrate",
+    "Recover_Password": "Recuperar contraseña",
+    "Enter_your_Email": "¡Ingrese su correo electrónico y le enviaremos las instrucciones!",
+    "Reset": "Reiniciar",
+    "Register_Now": "Regístrate ahora",
+    "Create_your_account": "Crea tu cuenta y disfruta",
+    "I_agree_to_all": "Estoy de acuerdo con todol",
+    "Already_have_an_account": "¿Ya tienes una cuenta?",
+    "Sign_In": "Registrarse"
+  },
+  "sidebar" : {
+    "My_Profile": "Mi Perfil"
+  },
+  "breadcrumbs" : {
+    "Blank_Page": "Página en blanco"
+  },
+    "Home": "Inicio",
+    "pages": "páginas",
+    "Name": "Nombre",
+    "Password": "Contraseña",
+    "Confirm_Password": "Confirma Contraseña",
+    "Terms": "Terminos"
+}

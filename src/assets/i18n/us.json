@@ -1,0 +1,31 @@
+{
+  "login" : {
+    "Username": "Username",
+    "Password": "Password",
+    "Remember_me": "Remember me",
+    "Forgot_pwd": "Forgot pwd?",
+    "Log_In": "Log In",
+    "Dont_have_an_account": "Don't have an account?",
+    "Sign_Up": "Sign Up",
+    "Recover_Password": "Recover Password",
+    "Enter_your_Email": "Enter your Email and instructions will be sent to you!",
+    "Reset": "Reset",
+    "Register_Now": "Register Now",
+    "Create_your_account": "Create your account and enjoy",
+    "I_agree_to_all": "I agree to all",
+    "Already_have_an_account": "Already have an account?",
+    "Sign_In": "Sign In"
+  },
+  "sidebar" : {
+    "My_Profile": "My_Profile"
+  },
+  "breadcrumbs" : {
+    "Blank_Page": "Blank Page"
+  },
+    "Home": "Home",
+    "pages": "pages",
+    "Name": "Name",
+    "Password": "Password",
+    "Confirm_Password": "Confirm Password",
+    "Terms": "Terms"
+}
