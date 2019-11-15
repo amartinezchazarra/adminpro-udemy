@@ -1,5 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+// Modulos
+import { PagesModule } from './pages/pages.module';
 
 //Translation
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -24,24 +28,27 @@ import { RegisterComponent } from './login/register.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    NopagefoundComponent,
-    DashboardComponent,
-    ProgressComponent,
-    Graficas1Component,
-    HeaderComponent,
-    SidebarComponent,
-    BreadcrumbsComponent,
-    PagesComponent,
-    RegisterComponent,
+    RegisterComponent
+//    PagesComponent,
+//    DashboardComponent,
+//    ProgressComponent,
+//    Graficas1Component,
+//    NopagefoundComponent,
+//    HeaderComponent,
+//    SidebarComponent,
+//    BreadcrumbsComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     APP_ROUTES,
+    PagesModule,
     // ngx-translate and the loader module
     HttpClientModule,
     TranslateModule.forRoot({
