@@ -9,6 +9,7 @@ import { SharedModule } from '../shared/shared.module';
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PAGES_ROUTES } from './pages.routes';
 
 
 
@@ -26,6 +27,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ],
     imports: [
         SharedModule,
+        PAGES_ROUTES,
         // ngx-translate and the loader module
         HttpClientModule,
         TranslateModule.forRoot({
