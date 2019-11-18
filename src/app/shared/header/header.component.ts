@@ -10,20 +10,22 @@ import { TranslateService } from '@ngx-translate/core';
 
 
 export class HeaderComponent implements OnInit {
-  public idioma:string ;
+  public idioma:string;
   
   constructor(private translate: TranslateService) {
-    this.idioma ="flag-icon flag-icon-es";
     translate.setDefaultLang('es');
+
+    if(!translate.currentLang){
+      this.useLanguage(translate.defaultLang);
+    }
     
-    this.useLanguage(translate.currentLang);
-    this.idioma="flag-icon flag-icon-"+translate.getDefaultLang();
+    this.idioma = "flag-icon flag-icon-"+translate.currentLang        
   }
  
   useLanguage(language: string) {
     this.translate.use(language);
     this.idioma="flag-icon flag-icon-"+language;
-}
+  }
 
   ngOnInit() {
   }
