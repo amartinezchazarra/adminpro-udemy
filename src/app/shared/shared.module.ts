@@ -1,4 +1,9 @@
 import { NgModule } from '@angular/core';
+
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+
+
 import { BreadcrumbsComponent } from "./breadcrumbs/breadcrumbs.component";
 import { HeaderComponent } from './header/header.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
@@ -27,6 +32,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     imports:[
             // ngx-translate and the loader module
         HttpClientModule,
+        RouterModule,
+        CommonModule,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,

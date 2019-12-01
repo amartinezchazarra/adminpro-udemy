@@ -21,6 +21,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 //Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/graficoDona/graficoDona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -33,7 +34,8 @@ import { GraficoDonaComponent } from '../components/graficoDona/graficoDona.comp
         Graficas1Component,
         ProgressComponent,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,

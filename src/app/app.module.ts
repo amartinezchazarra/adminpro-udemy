@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+//temporal
 import { FormsModule } from '@angular/forms';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
+import { ServiceModule } from './services/service.module';
 
 //Translation
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
@@ -25,6 +27,9 @@ import { RegisterComponent } from './login/register.component';
 
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +42,7 @@ import { RegisterComponent } from './login/register.component';
     AppRoutingModule,
     APP_ROUTES,
     PagesModule,
+    ServiceModule,
     // ngx-translate and the loader module
     HttpClientModule,
     TranslateModule.forRoot({

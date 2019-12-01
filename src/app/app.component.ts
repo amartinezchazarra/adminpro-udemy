@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import { SettingsService } from './services/service.index';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +9,9 @@ import {TranslateService} from '@ngx-translate/core';
 })
 
 export class AppComponent {
-  title = 'adminpro';
-  constructor(private translate: TranslateService) {
+  title = 'Hospital';
+  constructor(private translate: TranslateService,
+              public _ajustes: SettingsService) {
     translate.setDefaultLang('es');
   }
  
